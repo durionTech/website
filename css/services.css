@@ -1,0 +1,206 @@
+.services-hero{
+
+    padding:150px 0;
+
+    background:linear-gradient(
+    135deg,
+    #0B1F5B,
+    #1E88FF);
+
+    color:white;
+
+    position:relative;
+    overflow:hidden;
+}
+
+.tag{
+
+    background:white;
+    color:#1E88FF;
+
+    padding:10px 25px;
+
+    border-radius:50px;
+}
+
+.services-hero h1{
+
+    margin-top:25px;
+
+    font-size:60px;
+    font-weight:800;
+}
+
+/* Floating Shapes */
+
+.floating-circle{
+
+    position:absolute;
+    border-radius:50%;
+    background:rgba(255,255,255,.1);
+}
+
+.c1{
+
+    width:250px;
+    height:250px;
+
+    top:-50px;
+    right:-50px;
+
+    animation:float 6s infinite;
+}
+
+.c2{
+
+    width:150px;
+    height:150px;
+
+    bottom:20px;
+    left:20px;
+
+    animation:float 8s infinite;
+}
+
+@keyframes float{
+
+    50%{
+        transform:translateY(-20px);
+    }
+
+}
+
+/* CARDS */
+
+.service-cards{
+
+    padding:100px 0;
+}
+
+.service-card{
+
+    background:white;
+
+    border-radius:25px;
+
+    padding:40px 30px;
+
+    text-align:center;
+
+    box-shadow:0 10px 35px rgba(0,0,0,.08);
+
+    transition:.4s;
+
+    height:100%;
+}
+
+.service-card:hover{
+
+    transform:
+    translateY(-15px);
+
+    box-shadow:
+    0 20px 50px rgba(30,136,255,.2);
+}
+
+.service-card .icon{
+
+    font-size:60px;
+}
+
+.service-card button{
+
+    margin-top:20px;
+
+    border:none;
+
+    background:
+    linear-gradient(
+    135deg,
+    #0B1F5B,
+    #1E88FF);
+
+    color:white;
+
+    padding:12px 25px;
+
+    border-radius:30px;
+}
+
+/* PROCESS */
+.process-section{
+    background:#f8fbff;
+    padding:100px 0;
+}
+.timeline{
+    display:flex;
+    justify-content:space-between;
+    flex-wrap:wrap;
+    margin-top:50px;
+}
+.step{
+    width:220px;
+    text-align:center;
+}
+.step span{
+    width:80px;
+    height:80px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background:#1E88FF;
+    color:white;
+    border-radius:50%;
+    margin:auto auto 20px;
+    font-size:28px;
+}
+/* FORM */
+.form-section{
+    padding:100px 0;
+}
+.form-wrapper{
+    background:white;
+    padding:50px;
+    border-radius:25px;
+    box-shadow:0 10px 40px rgba(0,0,0,.08);
+}
+/* COUNTER */
+.counter-section{
+    background:
+    linear-gradient(
+    135deg,
+    #0B1F5B,
+    #1E88FF);
+    color:white;
+    padding:100px 0;
+}
+.counter{ 
+    font-size:55px;
+    font-weight:800;
+}
+
+/* CTA */
+
+.cta-service{
+
+    padding:120px 0;
+
+    text-align:center;
+}
+
+.cta-btn{
+
+    background:
+    linear-gradient(
+    135deg,
+    #0B1F5B,
+    #1E88FF);
+
+    color:white;
+
+    border:none;
+
+    padding:15px 40px;
+
+    border-radius:50px;
+}
