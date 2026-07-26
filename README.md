@@ -238,294 +238,109 @@ Documentation
 
 ## ⚙️ `engineering_loop`
 
-<svg width="100%" viewBox="0 0 1000 650" xmlns="http://www.w3.org/2000/svg">
+<table>
+<tr>
 
-  <defs>
-    <!-- Blue Gradient -->
-    <linearGradient id="nodeBlue" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#0F172A"/>
-      <stop offset="55%" stop-color="#1D4ED8"/>
-      <stop offset="100%" stop-color="#38BDF8"/>
-    </linearGradient>
+<td align="center" width="14%">
 
-    <!-- Background Gradient -->
-    <linearGradient id="background" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#020617"/>
-      <stop offset="100%" stop-color="#0F172A"/>
-    </linearGradient>
+### 🔵
+**PROBLEM**
 
-    <!-- Glow -->
-    <filter id="glow">
-      <feGaussianBlur stdDeviation="5" result="blur"/>
-      <feMerge>
-        <feMergeNode in="blur"/>
-        <feMergeNode in="SourceGraphic"/>
-      </feMerge>
-    </filter>
+`DEFINE`
 
-    <!-- Arrow -->
-    <marker id="arrow"
-            markerWidth="10"
-            markerHeight="10"
-            refX="8"
-            refY="3"
-            orient="auto">
-      <path d="M0,0 L0,6 L9,3 z" fill="#38BDF8"/>
-    </marker>
-  </defs>
+</td>
 
-  <!-- Main Background -->
-  <rect width="1000"
-        height="650"
-        rx="28"
-        fill="url(#background)"
-        stroke="#1D4ED8"
-        stroke-width="2"/>
+<td align="center">➜</td>
 
-  <!-- Header -->
-  <text x="500"
-        y="60"
-        text-anchor="middle"
-        fill="#38BDF8"
-        font-size="26"
-        font-family="monospace"
-        font-weight="bold">
-        ⚙️ ENGINEERING LOOP
-  </text>
+<td align="center" width="14%">
 
-  <text x="500"
-        y="88"
-        text-anchor="middle"
-        fill="#94A3B8"
-        font-size="14"
-        font-family="monospace">
-        THINK → BUILD → VALIDATE → IMPROVE
-  </text>
+### 🔷
+**RESEARCH**
 
-  <!-- Connecting Flow -->
-  <path d="M500 165
-           L730 250
-           L730 390
-           L500 475
-           L270 390
-           L270 250
-           Z"
-        fill="none"
-        stroke="#2563EB"
-        stroke-width="3"
-        stroke-dasharray="10 8"
-        marker-end="url(#arrow)"
-        opacity="0.8"/>
+`DISCOVER`
 
-  <!-- Center Node -->
-  <circle cx="500"
-          cy="320"
-          r="92"
-          fill="url(#nodeBlue)"
-          stroke="#38BDF8"
-          stroke-width="4"
-          filter="url(#glow)"/>
+</td>
 
-  <text x="500"
-        y="310"
-        text-anchor="middle"
-        fill="#FFFFFF"
-        font-size="22"
-        font-family="monospace"
-        font-weight="bold">
-        BUILD
-  </text>
+<td align="center">➜</td>
 
-  <text x="500"
-        y="338"
-        text-anchor="middle"
-        fill="#BAE6FD"
-        font-size="13"
-        font-family="monospace">
-        CREATE • SOLVE • SHIP
-  </text>
+<td align="center" width="14%">
 
-  <!-- PROBLEM -->
-  <circle cx="500"
-          cy="155"
-          r="58"
-          fill="url(#nodeBlue)"
-          stroke="#38BDF8"
-          stroke-width="3"
-          filter="url(#glow)"/>
+### 🟣
+**ARCHITECT**
 
-  <text x="500"
-        y="150"
-        text-anchor="middle"
-        fill="white"
-        font-size="15"
-        font-family="monospace"
-        font-weight="bold">
-        PROBLEM
-  </text>
+`STRUCTURE`
 
-  <text x="500"
-        y="170"
-        text-anchor="middle"
-        fill="#BAE6FD"
-        font-size="11"
-        font-family="monospace">
-        DEFINE
-  </text>
+</td>
 
-  <!-- RESEARCH -->
-  <circle cx="755"
-          cy="230"
-          r="58"
-          fill="url(#nodeBlue)"
-          stroke="#38BDF8"
-          stroke-width="3"
-          filter="url(#glow)"/>
+<td align="center">➜</td>
 
-  <text x="755"
-        y="225"
-        text-anchor="middle"
-        fill="white"
-        font-size="14"
-        font-family="monospace"
-        font-weight="bold">
-        RESEARCH
-  </text>
+<td align="center" width="14%">
 
-  <text x="755"
-        y="245"
-        text-anchor="middle"
-        fill="#BAE6FD"
-        font-size="11"
-        font-family="monospace">
-        DISCOVER
-  </text>
+### 🔵
+**BUILD**
 
-  <!-- ARCHITECT -->
-  <circle cx="755"
-          cy="410"
-          r="58"
-          fill="url(#nodeBlue)"
-          stroke="#38BDF8"
-          stroke-width="3"
-          filter="url(#glow)"/>
+`CREATE`
 
-  <text x="755"
-        y="405"
-        text-anchor="middle"
-        fill="white"
-        font-size="14"
-        font-family="monospace"
-        font-weight="bold">
-        ARCHITECT
-  </text>
+</td>
 
-  <text x="755"
-        y="425"
-        text-anchor="middle"
-        fill="#BAE6FD"
-        font-size="11"
-        font-family="monospace">
-        STRUCTURE
-  </text>
+<td align="center">➜</td>
 
-  <!-- BUILD / IMPLEMENT -->
-  <circle cx="500"
-          cy="500"
-          r="58"
-          fill="url(#nodeBlue)"
-          stroke="#38BDF8"
-          stroke-width="3"
-          filter="url(#glow)"/>
+<td align="center" width="14%">
 
-  <text x="500"
-        y="495"
-        text-anchor="middle"
-        fill="white"
-        font-size="14"
-        font-family="monospace"
-        font-weight="bold">
-        TEST
-  </text>
+### 🟦
+**TEST**
 
-  <text x="500"
-        y="515"
-        text-anchor="middle"
-        fill="#BAE6FD"
-        font-size="11"
-        font-family="monospace">
-        VALIDATE
-  </text>
+`VALIDATE`
 
-  <!-- OPTIMIZE -->
-  <circle cx="245"
-          cy="410"
-          r="58"
-          fill="url(#nodeBlue)"
-          stroke="#38BDF8"
-          stroke-width="3"
-          filter="url(#glow)"/>
+</td>
 
-  <text x="245"
-        y="405"
-        text-anchor="middle"
-        fill="white"
-        font-size="14"
-        font-family="monospace"
-        font-weight="bold">
-        OPTIMIZE
-  </text>
+<td align="center">➜</td>
 
-  <text x="245"
-        y="425"
-        text-anchor="middle"
-        fill="#BAE6FD"
-        font-size="11"
-        font-family="monospace">
-        IMPROVE
-  </text>
+<td align="center" width="14%">
 
-  <!-- SHIP -->
-  <circle cx="245"
-          cy="230"
-          r="58"
-          fill="url(#nodeBlue)"
-          stroke="#38BDF8"
-          stroke-width="3"
-          filter="url(#glow)"/>
+### 🔷
+**OPTIMIZE**
 
-  <text x="245"
-        y="225"
-        text-anchor="middle"
-        fill="white"
-        font-size="15"
-        font-family="monospace"
-        font-weight="bold">
-        SHIP
-  </text>
+`IMPROVE`
 
-  <text x="245"
-        y="245"
-        text-anchor="middle"
-        fill="#BAE6FD"
-        font-size="11"
-        font-family="monospace">
-        RELEASE
-  </text>
+</td>
 
-  <!-- Bottom Philosophy -->
-  <text x="500"
-        y="585"
-        text-anchor="middle"
-        fill="#E0F2FE"
-        font-size="14"
-        font-family="monospace">
-        USEFUL • INTUITIVE • MAINTAINABLE • DISCOVERABLE
-  </text>
+<td align="center">➜</td>
 
-</svg>
+<td align="center" width="14%">
 
-</div>
+### ⚡
+**SHIP**
+
+`RELEASE`
+
+</td>
+
+</tr>
+</table>
+
+<br/>
+
+```text
+        ┌──────────┐      ┌──────────┐      ┌──────────┐
+        │ PROBLEM  │ ───► │ RESEARCH │ ───► │ARCHITECT │
+        │  DEFINE  │      │ DISCOVER │      │ STRUCTURE │
+        └──────────┘      └──────────┘      └────┬─────┘
+                                                  │
+                                                  ▼
+        ┌──────────┐      ┌──────────┐      ┌──────────┐
+        │   SHIP   │ ◄─── │ OPTIMIZE │ ◄─── │  BUILD   │
+        │ RELEASE  │      │ IMPROVE  │      │  CREATE  │
+        └────┬─────┘      └──────────┘      └────┬─────┘
+             │                                    │
+             └───────────────┐        ┌───────────┘
+                             ▼        ▼
+                          ┌────────────┐
+                          │    TEST    │
+                          │  VALIDATE  │
+                          └──────┬─────┘
+                                 │
+                                 └──────────↺ ITERATE
 # 🛠️ `tech_stack`
 
 </div>
