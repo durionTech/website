@@ -4,7 +4,7 @@
 
 <br/>
 
-### `I build the web — from code and interfaces to search visibility and digital experiences.`
+### `We build the web — from code and interfaces to search visibility and digital experiences.`
 
 <br/>
 
@@ -16,8 +16,8 @@
 <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" />
 </a>
 &nbsp;
-<a href="mailto:durion.technologie@gmail.com">
-<img src="https://img.shields.io/badge/Contact-0A66C2?style=for-the-badge&logo=gmail&logoColor=white" />
+<a href="https://wa.me/916379530183?text=Hello%20Durion%20Tech%2C%20I%20found%20your%20GitHub%20profile.">
+<img src="https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
 </a>
 
 <br/><br/>
