@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0F172A,50:0A66C2,100:38BDF8&height=220&section=header&text=GIDEON%20ROSHAN&fontSize=48&fontColor=FFFFFF&animation=fadeIn&fontAlignY=38&desc=Software%20Developer%20%7C%20Web%20Builder%20%7C%20SEO%20Engineer&descAlignY=60&descSize=18" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0F172A,50:0A66C2,100:38BDF8&height=220&section=header&text=Durion%20Technologies&fontSize=48&fontColor=FFFFFF&animation=fadeIn&fontAlignY=38&desc=Software%20Developer%20%7C%20Web%20Builder%20%7C%20SEO%20Engineer&descAlignY=60&descSize=18" />
 
 <br/>
 
@@ -8,7 +8,7 @@
 
 <br/>
 
-<a href="YOUR_WEBSITE_URL">
+<a href="https://website-xi-ten-27.vercel.app/">
 <img src="https://img.shields.io/badge/🌐%20Website-0A66C2?style=for-the-badge&logoColor=white" />
 </a>
 &nbsp;
@@ -16,7 +16,7 @@
 <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" />
 </a>
 &nbsp;
-<a href="mailto:YOUR_EMAIL">
+<a href="mailto:durion.technologie@gmail.com">
 <img src="https://img.shields.io/badge/Contact-0A66C2?style=for-the-badge&logo=gmail&logoColor=white" />
 </a>
 
