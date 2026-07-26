@@ -321,90 +321,62 @@ Documentation
 
 <br/>
 
-```text
-        ┌──────────┐      ┌──────────┐      ┌──────────┐
-        │ PROBLEM  │ ───► │ RESEARCH │ ───► │ARCHITECT │
-        │  DEFINE  │      │ DISCOVER │      │ STRUCTURE │
-        └──────────┘      └──────────┘      └────┬─────┘
-                                                  │
-                                                  ▼
-        ┌──────────┐      ┌──────────┐      ┌──────────┐
-        │   SHIP   │ ◄─── │ OPTIMIZE │ ◄─── │  BUILD   │
-        │ RELEASE  │      │ IMPROVE  │      │  CREATE  │
-        └────┬─────┘      └──────────┘      └────┬─────┘
-             │                                    │
-             └───────────────┐        ┌───────────┘
-                             ▼        ▼
-                          ┌────────────┐
-                          │    TEST    │
-                          │  VALIDATE  │
-                          └──────┬─────┘
-                                 │
-                                 └──────────↺ ITERATE
-# 🛠️ `tech_stack`
+<div align="center">
+
+🛠️ tech_stack
 
 </div>
 
-### Languages
+Languages
 
 <img src="https://skillicons.dev/icons?i=python,java,js,bash,cpp" />
 
-### Web Development
+Web Development
 
 <img src="https://skillicons.dev/icons?i=react,django,nodejs,html,css" />
 
-### Data & Platforms
+Data & Platforms
 
 <img src="https://skillicons.dev/icons?i=mysql,postgres,supabase" />
 
-### Tools & Workflow
+Tools & Workflow
 
 <img src="https://skillicons.dev/icons?i=git,github,linux,vscode" />
 
----
-
 <div align="center">
 
-# 🌍 `open_source`
+🌍 open_source
 
 </div>
 
 I believe software becomes more valuable when people can:
 
-```text
 READ  →  USE  →  LEARN  →  MODIFY  →  IMPROVE  →  SHARE
-```
 
 My open-source interests include:
 
-* 🧰 Developer utilities
-* 🌐 Web applications
-* ⚙️ Automation tools
-* 🧪 Technical experiments
-* 🧩 Reusable components
-* 📚 Documentation and learning resources
-
----
+🧰 Developer utilities
+🌐 Web applications
+⚙️ Automation tools
+🧪 Technical experiments
+🧩 Reusable components
+📚 Documentation and learning resources
 
 <div align="center">
 
-## `📡 currently_exploring`
+📡 currently_exploring
 
 </div>
 
-```text
 [██████████████████░░] Modern Web Development
 [████████████████░░░░] Technical SEO
 [███████████████░░░░░] Open Source
 [██████████████░░░░░░] UI/UX Systems
 [████████████░░░░░░░░] Developer Tools
-```
-
----
 
 <div align="center">
 
-# 📊 `github_activity`
+📊 github_activity
 
 <br/>
 
@@ -416,23 +388,21 @@ My open-source interests include:
 
 </div>
 
----
-
 <div align="center">
 
-## `🤝 let's_build`
+🤝 let's_build
 
 I am interested in:
 
-**Open Source · Web Development · Technical Projects · SEO · Digital Products · UI/UX**
+Open Source · Web Development · Technical Projects · SEO · Digital Products · UI/UX
 
 <br/>
 
-### `Build. Ship. Learn. Improve.`
+Build. Ship. Learn. Improve.
 
 <br/>
 
-<a href="https://website-xi-ten-27.vercel.app/">
+<a href="YOUR_WEBSITE_URL">
 
 <img src="https://img.shields.io/badge/Visit%20My%20Website-0A66C2?style=for-the-badge&logo=googlechrome&logoColor=white" />
 
@@ -440,4 +410,5 @@ I am interested in:
 
 </div>
 
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:38BDF8,50:0A66C2,100:0F172A&height=120&section=footer" />
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:38BDF8,50:0A66C2,100:0F172A&height=120&section=footer" />
