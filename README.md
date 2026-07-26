@@ -380,11 +380,11 @@ My open-source interests include:
 
 <br/>
 
-<img src="https://github-readme-stats.vercel.app/api?username=YOUR_USERNAME&show_icons=true&hide_border=true&bg_color=0F172A&title_color=38BDF8&icon_color=38BDF8&text_color=CBD5E1" />
+<img src="https://github-readme-stats.vercel.app/api?username=durionTech&show_icons=true&hide_border=true&bg_color=0F172A&title_color=38BDF8&icon_color=38BDF8&text_color=CBD5E1" />
 
 <br/><br/>
 
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=YOUR_USERNAME&theme=dark&hide_border=true&background=0F172A&ring=38BDF8&fire=38BDF8&currStreakLabel=38BDF8" />
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=durionTech&theme=dark&hide_border=true&background=0F172A&ring=38BDF8&fire=38BDF8&currStreakLabel=38BDF8" />
 
 </div>
 
@@ -411,4 +411,4 @@ Build. Ship. Learn. Improve.
 </div>
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:38BDF8,50:0A66C2,100:0F172A&height=120&section=footer" />
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:38BDF8,50:0A66C2,100:0F172A&height=120&section=footer" />
+
