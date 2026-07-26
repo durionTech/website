@@ -1,229 +1,138 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:020617,45:0F172A,75:1D4ED8,100:38BDF8&height=240&section=header&text=GIDEON%20ROSHAN&fontSize=52&fontColor=FFFFFF&animation=fadeIn&fontAlignY=38&desc=FRONTEND%20%7C%20BACKEND%20%7C%20WEB%20%7C%20SEO%20%7C%20OPEN%20SOURCE&descAlignY=62&descSize=16" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0F172A,50:0A66C2,100:38BDF8&height=220&section=header&text=GIDEON%20ROSHAN&fontSize=48&fontColor=FFFFFF&animation=fadeIn&fontAlignY=38&desc=Software%20Developer%20%7C%20Web%20Builder%20%7C%20SEO%20Engineer&descAlignY=60&descSize=18" />
 
 <br/>
 
-<h3>⚡ I build digital systems from interface to infrastructure.</h3>
-
-<p>
-Frontend interfaces.
-Backend systems.
-Search-optimized websites.
-Open-source experiments.
-</p>
+### `I build the web — from code and interfaces to search visibility and digital experiences.`
 
 <br/>
 
 <a href="YOUR_WEBSITE_URL">
-<img src="https://img.shields.io/badge/🌐%20PORTFOLIO-2563EB?style=for-the-badge&logoColor=white" />
+<img src="https://img.shields.io/badge/🌐%20Portfolio-0A66C2?style=for-the-badge&logoColor=white" />
 </a>
-
+&nbsp;
 <a href="YOUR_LINKEDIN_URL">
-<img src="https://img.shields.io/badge/LINKEDIN-1D4ED8?style=for-the-badge&logo=linkedin&logoColor=white" />
+<img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" />
 </a>
-
+&nbsp;
 <a href="mailto:YOUR_EMAIL">
-<img src="https://img.shields.io/badge/CONTACT-0EA5E9?style=for-the-badge&logo=gmail&logoColor=white" />
+<img src="https://img.shields.io/badge/Contact-0A66C2?style=for-the-badge&logo=gmail&logoColor=white" />
 </a>
 
 <br/><br/>
 
-<img src="https://komarev.com/ghpvc/?username=YOUR_USERNAME&style=flat-square&color=38BDF8&label=PROFILE+VISITORS" />
+<img src="https://komarev.com/ghpvc/?username=YOUR_USERNAME&style=flat-square&color=0A66C2" />
 
 </div>
 
 ---
 
 <div align="center">
-
-```text
-┌────────────────────────────────────────────────────────────┐
-│  GIDEON.ROSHAN                                             │
-│  STATUS  : BUILDING                                        │
-│  FOCUS   : WEB • SEO • DIGITAL PRODUCTS • OPEN SOURCE     │
-│  MODE    : LEARN → BUILD → SHIP → IMPROVE                 │
-└────────────────────────────────────────────────────────────┘
-```
-
-</div>
-
----
 
 ## `> whoami`
 
-I'm a software developer and digital builder focused on creating **web applications, backend systems, digital products, search-optimized websites, and open-source projects**.
+</div>
 
-I enjoy working across the complete product journey:
+I am a software developer and digital builder focused on creating practical web applications, developer tools, digital experiences, and open-source projects.
+
+My work sits at the intersection of:
 
 ```text
-IDEA
- │
- ▼
-USER EXPERIENCE
- │
- ▼
-FRONTEND INTERFACE
- │
- ▼
-BACKEND LOGIC
- │
- ▼
-DATABASE
- │
- ▼
-DEPLOYMENT
- │
- ▼
-SEARCH VISIBILITY
- │
- ▼
-REAL USERS
+┌──────────────┐
+│    CODE      │
+└──────┬───────┘
+       ↓
+┌──────────────┐
+│   PRODUCT    │
+└──────┬───────┘
+       ↓
+┌──────────────┐
+│    DESIGN    │
+└──────┬───────┘
+       ↓
+┌──────────────┐
+│     SEO      │
+└──────┬───────┘
+       ↓
+┌──────────────┐
+│    USERS     │
+└──────────────┘
 ```
 
-My goal is simple:
-
-> **Build useful things, make them technically solid, make them easy to use, and help people discover them.**
+I enjoy taking an idea from **concept → architecture → interface → implementation → optimization → real-world usage**.
 
 ---
 
-# `01 // FRONTEND`
-
 <div align="center">
 
-### `interface_layer`
+## `// what I build`
 
 </div>
 
-I enjoy building interfaces that are not only functional, but also **clear, responsive, accessible, and visually intentional**.
+<table>
+<tr>
+<td width="25%" align="center">
 
-```text
-┌──────────────────────────────────────┐
-│              FRONTEND                │
-├──────────────────────────────────────┤
-│                                      │
-│  UI COMPONENTS                       │
-│       ↓                              │
-│  USER EXPERIENCE                     │
-│       ↓                              │
-│  RESPONSIVE DESIGN                   │
-│       ↓                              │
-│  STATE & DATA                        │
-│       ↓                              │
-│  INTERACTION                         │
-│                                      │
-└──────────────────────────────────────┘
-```
+### 💻
 
-### Focus Areas
+### Software
 
-* ⚛️ Component-based interfaces
-* 📱 Responsive web experiences
-* 🎨 UI/UX systems
-* 🧩 Reusable components
-* ⚡ Performance-focused frontend
-* 🔄 API-driven applications
-* 🧭 Clear information architecture
+Web Apps
+APIs
+Automation
+Developer Tools
 
-### Frontend Stack
+</td>
 
-`React` `JavaScript` `HTML5` `CSS3`
+<td width="25%" align="center">
 
----
+### 🌐
 
-# `02 // BACKEND`
+### Web
 
-<div align="center">
+Frontend
+Backend
+Performance
+Web Architecture
 
-### `logic_layer`
+</td>
 
-</div>
+<td width="25%" align="center">
 
-I build backend systems that connect **applications, APIs, databases, and business logic**.
+### 🔎
 
-```text
-┌─────────────┐
-│   CLIENT    │
-└──────┬──────┘
-       │
-       ▼
-┌─────────────┐
-│     API     │
-└──────┬──────┘
-       │
-       ▼
-┌─────────────┐
-│   BUSINESS  │
-│    LOGIC    │
-└──────┬──────┘
-       │
-       ▼
-┌─────────────┐
-│  DATABASE   │
-└─────────────┘
-```
+### SEO
 
-### Focus Areas
+Technical SEO
+Audits
+Web Performance
+Search Visibility
 
-* 🔌 REST APIs
-* 🧠 Application logic
-* 🗄️ Database architecture
-* 🔐 Authentication workflows
-* ⚙️ Automation
-* 📦 Modular backend systems
+</td>
 
-### Backend Stack
+<td width="25%" align="center">
 
-`Python` `Django` `Java` `MySQL` `PostgreSQL`
+### 🧰
+
+### Open Source
+
+Tools
+Experiments
+Libraries
+Documentation
+
+</td>
+</tr>
+</table>
 
 ---
 
-# `03 // DIGITAL SYSTEMS`
-
 <div align="center">
 
-### `the_web_is_more_than_code`
+# 🚀 `featured_projects`
 
-</div>
-
-A website should not only work.
-
-It should be:
-
-```text
-FAST
-  +
-USEFUL
-  +
-ACCESSIBLE
-  +
-SEARCHABLE
-  +
-EASY TO USE
-```
-
-My work also explores:
-
-* 🔎 Technical SEO
-* ⚡ Web performance
-* 🧱 Website architecture
-* 📊 Search visibility
-* 🧭 User journeys
-* 📈 Digital marketing systems
-
-I enjoy connecting:
-
-```text
-CODE + DESIGN + SEARCH + USERS
-```
-
----
-
-# `04 // FEATURED PROJECTS`
-
-<div align="center">
-
-### `things_i_build`
+### A selection of things I build, break, improve, and ship.
 
 </div>
 
@@ -232,65 +141,47 @@ CODE + DESIGN + SEARCH + USERS
 
 <td width="50%" valign="top">
 
-## 🌐 Web Applications
+## 🌐 Project Name
 
-> Applications designed around real-world workflows and user experience.
+> A short description of the problem your project solves.
 
-```text
-Frontend
-    ↓
-API
-    ↓
-Backend
-    ↓
-Database
-```
+### `features`
 
-**Focus:**
+* ⚡ Fast and responsive interface
+* 🧩 Modular architecture
+* 🎯 Practical real-world workflow
+* 📱 Mobile-first experience
 
-* Responsive interfaces
-* API integration
-* Authentication
-* Data-driven workflows
+### `stack`
 
 `React` `Python` `Django` `MySQL`
 
 <br/>
 
-<a href="YOUR_PROJECT_URL">→ VIEW PROJECT</a>
+<a href="YOUR_PROJECT_URL">→ Explore Project</a>
 
 </td>
 
 <td width="50%" valign="top">
 
-## 🧰 Open-Source Tools
+## 🧰 Project Name
 
-> Technical experiments and reusable tools built to solve practical problems.
+> An open-source tool or technical project designed to solve a specific problem.
 
-```text
-PROBLEM
-   ↓
-BUILD
-   ↓
-DOCUMENT
-   ↓
-SHARE
-   ↓
-IMPROVE
-```
+### `features`
 
-**Focus:**
+* 🔧 Developer-focused workflow
+* 📦 Reusable components
+* 📚 Clear documentation
+* 🌍 Open-source approach
 
-* Developer utilities
-* Automation
-* Reusable code
-* Documentation
+### `stack`
 
-`Python` `JavaScript` `API`
+`Python` `JavaScript` `REST API`
 
 <br/>
 
-<a href="YOUR_REPOSITORY_URL">→ VIEW REPOSITORY</a>
+<a href="YOUR_REPOSITORY_URL">→ View Repository</a>
 
 </td>
 
@@ -299,129 +190,105 @@ IMPROVE
 
 ---
 
-# `05 // PROJECT ARCHITECTURE`
+<div align="center">
 
-When I build a project, I think in systems:
+## `⚙️ engineering_loop`
 
-```text
-┌─────────────────────────────────────────────────────┐
-│                    USER                             │
-└──────────────────────┬──────────────────────────────┘
-                       │
-                       ▼
-┌─────────────────────────────────────────────────────┐
-│                 FRONTEND                            │
-│            React / HTML / CSS                        │
-└──────────────────────┬──────────────────────────────┘
-                       │
-                       ▼
-┌─────────────────────────────────────────────────────┐
-│                    API                              │
-│             REST / Application Layer                 │
-└──────────────────────┬──────────────────────────────┘
-                       │
-                       ▼
-┌─────────────────────────────────────────────────────┐
-│                  BACKEND                            │
-│           Business Logic / Services                  │
-└──────────────────────┬──────────────────────────────┘
-                       │
-                       ▼
-┌─────────────────────────────────────────────────────┐
-│                 DATABASE                            │
-│              MySQL / PostgreSQL                      │
-└─────────────────────────────────────────────────────┘
-```
-
-Then I ask:
+</div>
 
 ```text
-Does it work?
-      ↓
-Is it useful?
-      ↓
-Is it intuitive?
-      ↓
-Is it maintainable?
-      ↓
-Is it fast?
-      ↓
-Can it grow?
+┌──────────────┐
+│   PROBLEM    │
+└──────┬───────┘
+       ↓
+┌──────────────┐
+│   RESEARCH   │
+└──────┬───────┘
+       ↓
+┌──────────────┐
+│  ARCHITECT   │
+└──────┬───────┘
+       ↓
+┌──────────────┐
+│    BUILD     │
+└──────┬───────┘
+       ↓
+┌──────────────┐
+│    TEST      │
+└──────┬───────┘
+       ↓
+┌──────────────┐
+│  OPTIMIZE    │
+└──────┬───────┘
+       ↓
+┌──────────────┐
+│    SHIP      │
+└──────────────┘
 ```
+
+> I don't just ask **"Does it work?"**
+>
+> I also ask:
+>
+> **Is it useful? · Is it intuitive? · Is it maintainable? · Is it discoverable?**
 
 ---
 
-# `06 // TECH STACK`
-
 <div align="center">
 
-### `languages`
+# 🛠️ `tech_stack`
+
+</div>
+
+### Languages
 
 <img src="https://skillicons.dev/icons?i=python,java,js,bash,cpp" />
 
-### `frontend`
+### Web Development
 
-<img src="https://skillicons.dev/icons?i=react,html,css" />
+<img src="https://skillicons.dev/icons?i=react,django,nodejs,html,css" />
 
-### `backend_and_data`
+### Data & Platforms
 
-<img src="https://skillicons.dev/icons?i=django,nodejs,mysql,postgres,supabase" />
+<img src="https://skillicons.dev/icons?i=mysql,postgres,supabase" />
 
-### `tools`
+### Tools & Workflow
 
 <img src="https://skillicons.dev/icons?i=git,github,linux,vscode" />
 
-</div>
-
 ---
-
-# `07 // OPEN SOURCE`
 
 <div align="center">
 
-```text
-┌──────────┐
-│  BUILD   │
-└────┬─────┘
-     ↓
-┌──────────┐
-│ DOCUMENT │
-└────┬─────┘
-     ↓
-┌──────────┐
-│  SHARE   │
-└────┬─────┘
-     ↓
-┌──────────┐
-│ IMPROVE  │
-└──────────┘
-```
+# 🌍 `open_source`
 
 </div>
 
-I believe open source is one of the best ways to:
+I believe software becomes more valuable when people can:
 
-* Learn by building
-* Share knowledge
-* Create reusable tools
-* Collaborate with developers
-* Improve through feedback
+```text
+READ  →  USE  →  LEARN  →  MODIFY  →  IMPROVE  →  SHARE
+```
 
 My open-source interests include:
 
-* Developer tools
-* Web applications
-* Automation
-* Technical experiments
-* Reusable components
-* Documentation
+* 🧰 Developer utilities
+* 🌐 Web applications
+* ⚙️ Automation tools
+* 🧪 Technical experiments
+* 🧩 Reusable components
+* 📚 Documentation and learning resources
 
 ---
 
-# `08 // CURRENTLY_BUILDING`
+<div align="center">
+
+## `📡 currently_exploring`
+
+</div>
 
 ```text
-[██████████████████░░] Web Development
+[██████████████████░░] Modern Web Development
 [████████████████░░░░] Technical SEO
 [███████████████░░░░░] Open Source
 [██████████████░░░░░░] UI/UX Systems
@@ -430,44 +297,42 @@ My open-source interests include:
 
 ---
 
-# `09 // GITHUB_ACTIVITY`
-
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=YOUR_USERNAME&show_icons=true&hide_border=true&bg_color=020617&title_color=38BDF8&icon_color=2563EB&text_color=CBD5E1" />
+# 📊 `github_activity`
+
+<br/>
+
+<img src="https://github-readme-stats.vercel.app/api?username=YOUR_USERNAME&show_icons=true&hide_border=true&bg_color=0F172A&title_color=38BDF8&icon_color=38BDF8&text_color=CBD5E1" />
 
 <br/><br/>
 
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=YOUR_USERNAME&theme=dark&hide_border=true&background=020617&ring=38BDF8&fire=2563EB&currStreakLabel=38BDF8" />
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=YOUR_USERNAME&theme=dark&hide_border=true&background=0F172A&ring=38BDF8&fire=38BDF8&currStreakLabel=38BDF8" />
 
 </div>
 
 ---
 
-# `10 // CONNECT`
-
 <div align="center">
 
-### `LET'S BUILD SOMETHING USEFUL.`
+## `🤝 let's_build`
+
+I am interested in:
+
+**Open Source · Web Development · Technical Projects · SEO · Digital Products · UI/UX**
 
 <br/>
 
-**Web Development** · **Open Source** · **Digital Products** · **SEO** · **UI/UX**
+### `Build. Ship. Learn. Improve.`
 
-<br/><br/>
+<br/>
 
-<a href="YOUR_WEBSITE_URL">
-<img src="https://img.shields.io/badge/🌐%20VISIT%20WEBSITE-2563EB?style=for-the-badge" />
+<a href="https://website-xi-ten-27.vercel.app/">
+
+<img src="https://img.shields.io/badge/Visit%20My%20Website-0A66C2?style=for-the-badge&logo=googlechrome&logoColor=white" />
+
 </a>
-
-<br/><br/>
-
-```text
-BUILD → SHIP → LEARN → IMPROVE
-```
 
 </div>
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:38BDF8,45:2563EB,75:0F172A,100:020617&height=130&section=footer" />
-
-
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:38BDF8,50:0A66C2,100:0F172A&height=120&section=footer" />
