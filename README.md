@@ -9,7 +9,7 @@
 <br/>
 
 <a href="YOUR_WEBSITE_URL">
-<img src="https://img.shields.io/badge/🌐%20Portfolio-0A66C2?style=for-the-badge&logoColor=white" />
+<img src="https://img.shields.io/badge/🌐%20Website-0A66C2?style=for-the-badge&logoColor=white" />
 </a>
 &nbsp;
 <a href="YOUR_LINKEDIN_URL">
