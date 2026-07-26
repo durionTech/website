@@ -238,204 +238,289 @@ Documentation
 
 ## ⚙️ `engineering_loop`
 
-<svg width="100%" viewBox="0 0 1000 430" xmlns="http://www.w3.org/2000/svg">
+<svg width="100%" viewBox="0 0 1000 650" xmlns="http://www.w3.org/2000/svg">
 
   <defs>
-    <linearGradient id="blueGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+    <!-- Blue Gradient -->
+    <linearGradient id="nodeBlue" x1="0%" y1="0%" x2="100%" y2="100%">
       <stop offset="0%" stop-color="#0F172A"/>
-      <stop offset="50%" stop-color="#1D4ED8"/>
+      <stop offset="55%" stop-color="#1D4ED8"/>
       <stop offset="100%" stop-color="#38BDF8"/>
     </linearGradient>
 
+    <!-- Background Gradient -->
+    <linearGradient id="background" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#020617"/>
+      <stop offset="100%" stop-color="#0F172A"/>
+    </linearGradient>
+
+    <!-- Glow -->
     <filter id="glow">
-      <feGaussianBlur stdDeviation="4" result="coloredBlur"/>
+      <feGaussianBlur stdDeviation="5" result="blur"/>
       <feMerge>
-        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="blur"/>
         <feMergeNode in="SourceGraphic"/>
       </feMerge>
     </filter>
+
+    <!-- Arrow -->
+    <marker id="arrow"
+            markerWidth="10"
+            markerHeight="10"
+            refX="8"
+            refY="3"
+            orient="auto">
+      <path d="M0,0 L0,6 L9,3 z" fill="#38BDF8"/>
+    </marker>
   </defs>
 
-  <!-- Background -->
-  <rect width="1000" height="430" rx="24" fill="#020617"/>
+  <!-- Main Background -->
+  <rect width="1000"
+        height="650"
+        rx="28"
+        fill="url(#background)"
+        stroke="#1D4ED8"
+        stroke-width="2"/>
 
-  <!-- Main Flow Line -->
-  <path d="M100 180 H900"
+  <!-- Header -->
+  <text x="500"
+        y="60"
+        text-anchor="middle"
+        fill="#38BDF8"
+        font-size="26"
+        font-family="monospace"
+        font-weight="bold">
+        ⚙️ ENGINEERING LOOP
+  </text>
+
+  <text x="500"
+        y="88"
+        text-anchor="middle"
+        fill="#94A3B8"
+        font-size="14"
+        font-family="monospace">
+        THINK → BUILD → VALIDATE → IMPROVE
+  </text>
+
+  <!-- Connecting Flow -->
+  <path d="M500 165
+           L730 250
+           L730 390
+           L500 475
+           L270 390
+           L270 250
+           Z"
+        fill="none"
         stroke="#2563EB"
         stroke-width="3"
-        stroke-dasharray="8 8"
-        opacity="0.7"/>
+        stroke-dasharray="10 8"
+        marker-end="url(#arrow)"
+        opacity="0.8"/>
 
-  <!-- Connecting Nodes -->
-
-  <!-- Problem -->
-  <circle cx="100" cy="180" r="48"
-          fill="url(#blueGradient)"
+  <!-- Center Node -->
+  <circle cx="500"
+          cy="320"
+          r="92"
+          fill="url(#nodeBlue)"
           stroke="#38BDF8"
-          stroke-width="3"
+          stroke-width="4"
           filter="url(#glow)"/>
-  <text x="100" y="175"
-        text-anchor="middle"
-        fill="white"
-        font-size="15"
-        font-weight="bold">
-        PROBLEM
-  </text>
-  <text x="100" y="195"
-        text-anchor="middle"
-        fill="#BAE6FD"
-        font-size="11">
-        DEFINE
-  </text>
 
-  <!-- Research -->
-  <circle cx="260" cy="180" r="48"
-          fill="url(#blueGradient)"
-          stroke="#38BDF8"
-          stroke-width="3"
-          filter="url(#glow)"/>
-  <text x="260" y="175"
+  <text x="500"
+        y="310"
         text-anchor="middle"
-        fill="white"
-        font-size="15"
-        font-weight="bold">
-        RESEARCH
-  </text>
-  <text x="260" y="195"
-        text-anchor="middle"
-        fill="#BAE6FD"
-        font-size="11">
-        DISCOVER
-  </text>
-
-  <!-- Architect -->
-  <circle cx="420" cy="180" r="48"
-          fill="url(#blueGradient)"
-          stroke="#38BDF8"
-          stroke-width="3"
-          filter="url(#glow)"/>
-  <text x="420" y="175"
-        text-anchor="middle"
-        fill="white"
-        font-size="15"
-        font-weight="bold">
-        ARCHITECT
-  </text>
-  <text x="420" y="195"
-        text-anchor="middle"
-        fill="#BAE6FD"
-        font-size="11">
-        STRUCTURE
-  </text>
-
-  <!-- Build -->
-  <circle cx="580" cy="180" r="48"
-          fill="url(#blueGradient)"
-          stroke="#38BDF8"
-          stroke-width="3"
-          filter="url(#glow)"/>
-  <text x="580" y="175"
-        text-anchor="middle"
-        fill="white"
-        font-size="15"
+        fill="#FFFFFF"
+        font-size="22"
+        font-family="monospace"
         font-weight="bold">
         BUILD
   </text>
-  <text x="580" y="195"
+
+  <text x="500"
+        y="338"
         text-anchor="middle"
         fill="#BAE6FD"
-        font-size="11">
-        CREATE
+        font-size="13"
+        font-family="monospace">
+        CREATE • SOLVE • SHIP
   </text>
 
-  <!-- Test -->
-  <circle cx="740" cy="180" r="48"
-          fill="url(#blueGradient)"
+  <!-- PROBLEM -->
+  <circle cx="500"
+          cy="155"
+          r="58"
+          fill="url(#nodeBlue)"
           stroke="#38BDF8"
           stroke-width="3"
           filter="url(#glow)"/>
-  <text x="740" y="175"
+
+  <text x="500"
+        y="150"
         text-anchor="middle"
         fill="white"
         font-size="15"
+        font-family="monospace"
+        font-weight="bold">
+        PROBLEM
+  </text>
+
+  <text x="500"
+        y="170"
+        text-anchor="middle"
+        fill="#BAE6FD"
+        font-size="11"
+        font-family="monospace">
+        DEFINE
+  </text>
+
+  <!-- RESEARCH -->
+  <circle cx="755"
+          cy="230"
+          r="58"
+          fill="url(#nodeBlue)"
+          stroke="#38BDF8"
+          stroke-width="3"
+          filter="url(#glow)"/>
+
+  <text x="755"
+        y="225"
+        text-anchor="middle"
+        fill="white"
+        font-size="14"
+        font-family="monospace"
+        font-weight="bold">
+        RESEARCH
+  </text>
+
+  <text x="755"
+        y="245"
+        text-anchor="middle"
+        fill="#BAE6FD"
+        font-size="11"
+        font-family="monospace">
+        DISCOVER
+  </text>
+
+  <!-- ARCHITECT -->
+  <circle cx="755"
+          cy="410"
+          r="58"
+          fill="url(#nodeBlue)"
+          stroke="#38BDF8"
+          stroke-width="3"
+          filter="url(#glow)"/>
+
+  <text x="755"
+        y="405"
+        text-anchor="middle"
+        fill="white"
+        font-size="14"
+        font-family="monospace"
+        font-weight="bold">
+        ARCHITECT
+  </text>
+
+  <text x="755"
+        y="425"
+        text-anchor="middle"
+        fill="#BAE6FD"
+        font-size="11"
+        font-family="monospace">
+        STRUCTURE
+  </text>
+
+  <!-- BUILD / IMPLEMENT -->
+  <circle cx="500"
+          cy="500"
+          r="58"
+          fill="url(#nodeBlue)"
+          stroke="#38BDF8"
+          stroke-width="3"
+          filter="url(#glow)"/>
+
+  <text x="500"
+        y="495"
+        text-anchor="middle"
+        fill="white"
+        font-size="14"
+        font-family="monospace"
         font-weight="bold">
         TEST
   </text>
-  <text x="740" y="195"
+
+  <text x="500"
+        y="515"
         text-anchor="middle"
         fill="#BAE6FD"
-        font-size="11">
+        font-size="11"
+        font-family="monospace">
         VALIDATE
   </text>
 
-  <!-- Ship -->
-  <circle cx="900" cy="180" r="48"
-          fill="url(#blueGradient)"
+  <!-- OPTIMIZE -->
+  <circle cx="245"
+          cy="410"
+          r="58"
+          fill="url(#nodeBlue)"
           stroke="#38BDF8"
           stroke-width="3"
           filter="url(#glow)"/>
-  <text x="900" y="175"
+
+  <text x="245"
+        y="405"
         text-anchor="middle"
         fill="white"
-        font-size="15"
-        font-weight="bold">
-        SHIP
-  </text>
-  <text x="900" y="195"
-        text-anchor="middle"
-        fill="#BAE6FD"
-        font-size="11">
-        RELEASE
-  </text>
-
-  <!-- Feedback Loop -->
-  <path d="M900 240
-           C900 350, 100 350, 100 240"
-        fill="none"
-        stroke="#38BDF8"
-        stroke-width="3"
-        stroke-dasharray="10 8"
-        opacity="0.8"/>
-
-  <!-- Optimize Node -->
-  <rect x="410" y="300"
-        width="180"
-        height="52"
-        rx="26"
-        fill="#0F172A"
-        stroke="#38BDF8"
-        stroke-width="3"
-        filter="url(#glow)"/>
-
-  <text x="500" y="322"
-        text-anchor="middle"
-        fill="white"
-        font-size="15"
+        font-size="14"
+        font-family="monospace"
         font-weight="bold">
         OPTIMIZE
   </text>
 
-  <text x="500" y="340"
+  <text x="245"
+        y="425"
         text-anchor="middle"
         fill="#BAE6FD"
-        font-size="11">
-        ITERATE • IMPROVE
+        font-size="11"
+        font-family="monospace">
+        IMPROVE
   </text>
 
-  <!-- Title -->
-  <text x="500" y="55"
+  <!-- SHIP -->
+  <circle cx="245"
+          cy="230"
+          r="58"
+          fill="url(#nodeBlue)"
+          stroke="#38BDF8"
+          stroke-width="3"
+          filter="url(#glow)"/>
+
+  <text x="245"
+        y="225"
         text-anchor="middle"
-        fill="#38BDF8"
-        font-size="24"
+        fill="white"
+        font-size="15"
+        font-family="monospace"
         font-weight="bold">
-        ENGINEERING LOOP
+        SHIP
   </text>
 
-  <text x="500" y="82"
+  <text x="245"
+        y="245"
         text-anchor="middle"
-        fill="#94A3B8"
-        font-size="13">
-        BUILD → VALIDATE → LEARN → IMPROVE
+        fill="#BAE6FD"
+        font-size="11"
+        font-family="monospace">
+        RELEASE
+  </text>
+
+  <!-- Bottom Philosophy -->
+  <text x="500"
+        y="585"
+        text-anchor="middle"
+        fill="#E0F2FE"
+        font-size="14"
+        font-family="monospace">
+        USEFUL • INTUITIVE • MAINTAINABLE • DISCOVERABLE
   </text>
 
 </svg>
