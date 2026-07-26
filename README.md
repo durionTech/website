@@ -39,25 +39,44 @@ I am a software developer and digital builder focused on creating practical web 
 My work sits at the intersection of:
 
 ```text
-┌──────────────┐
-│    CODE      │
-└──────┬───────┘
-       ↓
-┌──────────────┐
-│   PRODUCT    │
-└──────┬───────┘
-       ↓
-┌──────────────┐
-│    DESIGN    │
-└──────┬───────┘
-       ↓
-┌──────────────┐
-│     SEO      │
-└──────┬───────┘
-       ↓
-┌──────────────┐
-│    USERS     │
-└──────────────┘
+                                      ┌──────────────┐
+                                      │   CONCEPT    │
+                                      │   💡 IDEA    │
+                                      └──────┬───────┘
+                                             │
+                                             ▼
+                              ┌────────────────────────┐
+                              │       ARCHITECTURE      │
+                              │   🧩 PLAN • STRUCTURE   │
+                              └────────────┬───────────┘
+                                           │
+                         ┌─────────────────┼─────────────────┐
+                         │                 │                 │
+                         ▼                 ▼                 ▼
+                  ┌──────────────┐  ┌──────────────┐  ┌──────────────┐
+                  │     CODE     │  │    DESIGN    │  │      SEO      │
+                  │   ⚙️ BUILD   │  │   🎨 SHAPE   │  │   🔎 DISCOVER │
+                  └──────┬───────┘  └──────┬───────┘  └──────┬───────┘
+                         │                 │                 │
+                         └─────────────────┼─────────────────┘
+                                           │
+                                           ▼
+                              ┌────────────────────────┐
+                              │        PRODUCT          │
+                              │   🚀 BUILD • SHIP       │
+                              └────────────┬───────────┘
+                                           │
+                                           ▼
+                              ┌────────────────────────┐
+                              │          USERS          │
+                              │   👥 USE • EXPERIENCE   │
+                              └────────────┬───────────┘
+                                           │
+                                           ▼
+                              ┌────────────────────────┐
+                              │      ITERATE & IMPROVE  │
+                              │   🔁 LEARN • OPTIMIZE   │
+                              └────────────────────────┘
 ```
 
 I enjoy taking an idea from **concept → architecture → interface → implementation → optimization → real-world usage**.
