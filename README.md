@@ -34,7 +34,32 @@
 
 </div>
 
-I am a software developer and digital builder focused on creating practical web applications, developer tools, digital experiences, and open-source projects.
+# 👋 Welcome to Durion Technologies
+
+**Durion Technologies** is a software and digital solutions agency dedicated to helping businesses grow through technology and innovation.
+
+## 🚀 What We Do
+
+* 🌐 Website Design & Development
+* 💻 Custom Software Development
+* 📱 Web Applications
+* 🤖 AI & Machine Learning Solutions
+* 📊 Data Analytics & Business Dashboards
+* 📈 Search Engine Optimization (SEO)
+* 📣 Digital Marketing & Social Media Management
+* ☁️ Cloud Deployment & Technical Support
+
+## 🎯 Our Mission
+
+To deliver reliable, scalable, and innovative digital solutions that help businesses succeed in the digital world.
+
+## 💡 Technologies We Use
+
+Python • Django • React • JavaScript • HTML • CSS • Bootstrap • MySQL • PostgreSQL • Git • GitHub • AI • Machine Learning
+
+## 🌍 Let's Build Something Amazing
+
+We create technology that drives business growth through innovation, quality, and long-term partnerships.
 
 My work sits at the intersection of:
 
