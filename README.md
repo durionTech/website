@@ -9,7 +9,7 @@
 <br/>
 
 <a href="https://website-xi-ten-27.vercel.app/">
-<img src="https://img.shields.io/badge/🌐%20Website-0A66C2?style=for-the-badge&logoColor=white" />
+<img src="https://img.shields.io/badge/🌐%20Website-0F172A?style=for-the-badge&logoColor=white" />
 </a>
 &nbsp;
 <a href="https://www.linkedin.com/in/info-durion-3b6914420">
