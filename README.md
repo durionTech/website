@@ -22,7 +22,7 @@
 
 <br/><br/>
 
-<img src="https://komarev.com/ghpvc/?username=YOUR_USERNAME&style=flat-square&color=0A66C2" />
+<img src="https://komarev.com/ghpvc/?username=Durion Technologies&style=flat-square&color=0A66C2" />
 
 </div>
 
