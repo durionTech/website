@@ -349,10 +349,6 @@ Tools & Workflow
 
 </div>
 
-I believe software becomes more valuable when people can:
-
-READ  →  USE  →  LEARN  →  MODIFY  →  IMPROVE  →  SHARE
-
 My open-source interests include:
 
 🧰 Developer utilities
@@ -376,20 +372,6 @@ My open-source interests include:
 
 <div align="center">
 
-📊 github_activity
-
-<br/>
-
-<img src="https://github-readme-stats.vercel.app/api?username=durionTech&show_icons=true&hide_border=true&bg_color=0F172A&title_color=38BDF8&icon_color=38BDF8&text_color=CBD5E1" />
-
-<br/><br/>
-
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=durionTech&theme=dark&hide_border=true&background=0F172A&ring=38BDF8&fire=38BDF8&currStreakLabel=38BDF8" />
-
-</div>
-
-<div align="center">
-
 🤝 let's_build
 
 I am interested in:
@@ -402,7 +384,7 @@ Build. Ship. Learn. Improve.
 
 <br/>
 
-<a href="YOUR_WEBSITE_URL">
+<a href="https://website-xi-ten-27.vercel.app/">
 
 <img src="https://img.shields.io/badge/Visit%20My%20Website-0A66C2?style=for-the-badge&logo=googlechrome&logoColor=white" />
 
