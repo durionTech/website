@@ -348,40 +348,6 @@ Tools & Workflow
 🌍 open_source
 
 </div>
-
-My open-source interests include:
-
-🧰 Developer utilities
-🌐 Web applications
-⚙️ Automation tools
-🧪 Technical experiments
-🧩 Reusable components
-📚 Documentation and learning resources
-
-<div align="center">
-
-📡 currently_exploring
-
-</div>
-
-[██████████████████░░] Modern Web Development
-[████████████████░░░░] Technical SEO
-[███████████████░░░░░] Open Source
-[██████████████░░░░░░] UI/UX Systems
-[████████████░░░░░░░░] Developer Tools
-
-<div align="center">
-
-🤝 let's_build
-
-I am interested in:
-
-Open Source · Web Development · Technical Projects · SEO · Digital Products · UI/UX
-
-<br/>
-
-Build. Ship. Learn. Improve.
-
 <br/>
 
 <a href="https://website-xi-ten-27.vercel.app/">
