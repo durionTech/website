@@ -236,50 +236,211 @@ Documentation
 
 <div align="center">
 
-## `⚙️ engineering_loop`
+## ⚙️ `engineering_loop`
+
+<svg width="100%" viewBox="0 0 1000 430" xmlns="http://www.w3.org/2000/svg">
+
+  <defs>
+    <linearGradient id="blueGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0F172A"/>
+      <stop offset="50%" stop-color="#1D4ED8"/>
+      <stop offset="100%" stop-color="#38BDF8"/>
+    </linearGradient>
+
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="4" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1000" height="430" rx="24" fill="#020617"/>
+
+  <!-- Main Flow Line -->
+  <path d="M100 180 H900"
+        stroke="#2563EB"
+        stroke-width="3"
+        stroke-dasharray="8 8"
+        opacity="0.7"/>
+
+  <!-- Connecting Nodes -->
+
+  <!-- Problem -->
+  <circle cx="100" cy="180" r="48"
+          fill="url(#blueGradient)"
+          stroke="#38BDF8"
+          stroke-width="3"
+          filter="url(#glow)"/>
+  <text x="100" y="175"
+        text-anchor="middle"
+        fill="white"
+        font-size="15"
+        font-weight="bold">
+        PROBLEM
+  </text>
+  <text x="100" y="195"
+        text-anchor="middle"
+        fill="#BAE6FD"
+        font-size="11">
+        DEFINE
+  </text>
+
+  <!-- Research -->
+  <circle cx="260" cy="180" r="48"
+          fill="url(#blueGradient)"
+          stroke="#38BDF8"
+          stroke-width="3"
+          filter="url(#glow)"/>
+  <text x="260" y="175"
+        text-anchor="middle"
+        fill="white"
+        font-size="15"
+        font-weight="bold">
+        RESEARCH
+  </text>
+  <text x="260" y="195"
+        text-anchor="middle"
+        fill="#BAE6FD"
+        font-size="11">
+        DISCOVER
+  </text>
+
+  <!-- Architect -->
+  <circle cx="420" cy="180" r="48"
+          fill="url(#blueGradient)"
+          stroke="#38BDF8"
+          stroke-width="3"
+          filter="url(#glow)"/>
+  <text x="420" y="175"
+        text-anchor="middle"
+        fill="white"
+        font-size="15"
+        font-weight="bold">
+        ARCHITECT
+  </text>
+  <text x="420" y="195"
+        text-anchor="middle"
+        fill="#BAE6FD"
+        font-size="11">
+        STRUCTURE
+  </text>
+
+  <!-- Build -->
+  <circle cx="580" cy="180" r="48"
+          fill="url(#blueGradient)"
+          stroke="#38BDF8"
+          stroke-width="3"
+          filter="url(#glow)"/>
+  <text x="580" y="175"
+        text-anchor="middle"
+        fill="white"
+        font-size="15"
+        font-weight="bold">
+        BUILD
+  </text>
+  <text x="580" y="195"
+        text-anchor="middle"
+        fill="#BAE6FD"
+        font-size="11">
+        CREATE
+  </text>
+
+  <!-- Test -->
+  <circle cx="740" cy="180" r="48"
+          fill="url(#blueGradient)"
+          stroke="#38BDF8"
+          stroke-width="3"
+          filter="url(#glow)"/>
+  <text x="740" y="175"
+        text-anchor="middle"
+        fill="white"
+        font-size="15"
+        font-weight="bold">
+        TEST
+  </text>
+  <text x="740" y="195"
+        text-anchor="middle"
+        fill="#BAE6FD"
+        font-size="11">
+        VALIDATE
+  </text>
+
+  <!-- Ship -->
+  <circle cx="900" cy="180" r="48"
+          fill="url(#blueGradient)"
+          stroke="#38BDF8"
+          stroke-width="3"
+          filter="url(#glow)"/>
+  <text x="900" y="175"
+        text-anchor="middle"
+        fill="white"
+        font-size="15"
+        font-weight="bold">
+        SHIP
+  </text>
+  <text x="900" y="195"
+        text-anchor="middle"
+        fill="#BAE6FD"
+        font-size="11">
+        RELEASE
+  </text>
+
+  <!-- Feedback Loop -->
+  <path d="M900 240
+           C900 350, 100 350, 100 240"
+        fill="none"
+        stroke="#38BDF8"
+        stroke-width="3"
+        stroke-dasharray="10 8"
+        opacity="0.8"/>
+
+  <!-- Optimize Node -->
+  <rect x="410" y="300"
+        width="180"
+        height="52"
+        rx="26"
+        fill="#0F172A"
+        stroke="#38BDF8"
+        stroke-width="3"
+        filter="url(#glow)"/>
+
+  <text x="500" y="322"
+        text-anchor="middle"
+        fill="white"
+        font-size="15"
+        font-weight="bold">
+        OPTIMIZE
+  </text>
+
+  <text x="500" y="340"
+        text-anchor="middle"
+        fill="#BAE6FD"
+        font-size="11">
+        ITERATE • IMPROVE
+  </text>
+
+  <!-- Title -->
+  <text x="500" y="55"
+        text-anchor="middle"
+        fill="#38BDF8"
+        font-size="24"
+        font-weight="bold">
+        ENGINEERING LOOP
+  </text>
+
+  <text x="500" y="82"
+        text-anchor="middle"
+        fill="#94A3B8"
+        font-size="13">
+        BUILD → VALIDATE → LEARN → IMPROVE
+  </text>
+
+</svg>
 
 </div>
-
-```text
-┌──────────────┐
-│   PROBLEM    │
-└──────┬───────┘
-       ↓
-┌──────────────┐
-│   RESEARCH   │
-└──────┬───────┘
-       ↓
-┌──────────────┐
-│  ARCHITECT   │
-└──────┬───────┘
-       ↓
-┌──────────────┐
-│    BUILD     │
-└──────┬───────┘
-       ↓
-┌──────────────┐
-│    TEST      │
-└──────┬───────┘
-       ↓
-┌──────────────┐
-│  OPTIMIZE    │
-└──────┬───────┘
-       ↓
-┌──────────────┐
-│    SHIP      │
-└──────────────┘
-```
-
-> I don't just ask **"Does it work?"**
->
-> I also ask:
->
-> **Is it useful? · Is it intuitive? · Is it maintainable? · Is it discoverable?**
-
----
-
-<div align="center">
-
 # 🛠️ `tech_stack`
 
 </div>
